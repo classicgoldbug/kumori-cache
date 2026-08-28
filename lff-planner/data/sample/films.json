@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 1,
+  "festival": {
+    "name": "Sample Film Festival (fictional data)",
+    "year": 2025,
+    "startDate": "2025-10-08",
+    "endDate": "2025-10-19"
+  },
+  "generatedAt": "2025-09-01T12:00:00Z",
+  "films": [
+    {
+      "id": "the-glass-harbour",
+      "title": "The Glass Harbour",
+      "directors": ["Ingrid Halvorsen"],
+      "writers": ["Ingrid Halvorsen", "Tomas Berg"],
+      "cast": ["Maren Lindqvist", "Olafur Skarsson", "June Ekwueme"],
+      "countries": ["Norway", "UK"],
+      "year": 2025,
+      "runtimeMinutes": 128,
+      "languages": ["Norwegian", "English"],
+      "strand": "Headline Galas",
+      "synopsis": "A lighthouse keeper's daughter returns to a fjord town transformed by a mysterious glassworks.",
+      "writeupHtml": "<p>Halvorsen's third feature is her most assured yet: a slow-burning coastal fable in which grief and industry are fused, quite literally, in molten glass. Returning home for her father's funeral, marine engineer Solveig finds the family lighthouse decommissioned and the town in thrall to a glassworks whose furnaces never cool.</p><p>Shot on the Helgeland coast in shimmering 35mm, this is filmmaking of rare tactility — you can feel the heat of the foundry and the sting of the spray. Lindqvist gives a career-best performance as a woman learning that some inheritances are better shattered. A gala in every sense.</p>",
+      "image": {
+        "thumb": "images/thumb/the-glass-harbour.jpg",
+        "detail": "images/detail/the-glass-harbour.jpg",
+        "sourceUrl": "sample-placeholder"
+      },
+      "sourceUrl": "https://example.org/sample/the-glass-harbour",
+      "scrapedAt": "2025-09-01T12:00:00Z",
+      "screenings": [
+        {
+          "id": "the-glass-harbour#2025-10-09T20:45#royal-festival-hall",
+          "start": "2025-10-09T20:45:00+01:00",
+          "end": "2025-10-09T22:53:00+01:00",
+          "venueRaw": "Southbank Centre",
+          "venue": "royal-festival-hall",
+          "screen": null,
+          "bookingUrl": null,
+          "noteRaw": "+ intro and Q&A with Ingrid Halvorsen"
+        },
+        {
+          "id": "the-glass-harbour#2025-10-10T12:00#vue-west-end-7",
+          "start": "2025-10-10T12:00:00+01:00",
+          "end": "2025-10-10T14:08:00+01:00",
+          "venueRaw": "Vue West End Screen 7",
+          "venue": "vue-west-end",
+          "screen": "Screen 7",
+          "bookingUrl": null,
+          "noteRaw": null
+        },
+        {
+          "id": "the-glass-harbour#2025-10-11T15:15#curzon-mayfair",
+          "start": "2025-10-11T15:15:00+01:00",
+          "end": "2025-10-11T17:23:00+01:00",
+          "venueRaw": "Curzon Mayfair",
+          "venue": "curzon-mayfair",
+          "screen": null,
+          "bookingUrl": null,
+          "noteRaw": null
+        }
+      ]
+    },
+    {
+      "id": "mother-kim-daeyoung",
+      "title": "Mother",
+      "directors": ["Kim Dae-young"],
+      "writers": ["Kim Dae-young"],
+      "cast": ["Park Soo-min", "Lee Ha-eun"],
+      "countries": ["South Korea"],
+      "year": 2025,
+      "runtimeMinutes": 109,
+      "languages": ["Korean"],
+      "strand": "Official Competition",
+      "synopsis": "A midwife in a snowbound village delivers a child she believes she has met before.",
+      "writeupHtml": "<p>Not to be confused with the Irish drama of the same title elsewhere in this year's programme — Kim's film is a wintry, quietly devastating study of memory and duty. As midwife Yeon-hee attends a difficult birth during the worst blizzard in a generation, she becomes convinced the child is somehow familiar.</p><p>Kim directs with extraordinary restraint, letting long takes and the muffled acoustics of snowfall do the emotional work. The final reel recontextualises everything before it without a single line of exposition.</p>",
+      "image": {
+        "thumb": "images/thumb/mother-kim-daeyoung.jpg",
+        "detail": "images/detail/mother-kim-daeyoung.jpg",
+        "sourceUrl": "sample-placeholder"
+      },
+      "sourceUrl": "https://example.org/sample/mother-kim-daeyoung",
+      "scrapedAt": "2025-09-01T12:00:00Z",
+      "screenings": [
+        {
+          "id": "mother-kim-daeyoung#2025-10-10T18:10#curzon-soho-1",
+          "start": "2025-10-10T18:10:00+01:00",
+          "end": "2025-10-10T19:59:00+01:00",
+          "venueRaw": "Curzon Soho Screen 1",
+          "venue": "curzon-soho",
+          "screen": "Screen 1",
+          "bookingUrl": null,
+          "noteRaw": null
+        },
+        {
+          "id": "mother-kim-daeyoung#2025-10-12T14:30#bfi-southbank-nft1",
+          "start": "2025-10-12T14:30:00+01:00",
+          "end": "2025-10-12T16:19:00+01:00",
+          "venueRaw": "BFI Southbank NFT1",
+          "venue": "bfi-southbank",
+          "screen": "NFT1",
+          "bookingUrl": null,
+          "noteRaw": null
+        }
+      ]
+    },
+    {
+      "id": "mother-aoife-brennan",
+      "title": "Mother",
+      "directors": ["Aoife Brennan"],
+      "writers": ["Aoife Brennan", "Ciara Doyle"],
+      "cast": ["Sinead Gallagher", "Padraig Moore", "Roisin Kelly"],
+      "countries": ["Ireland"],
+      "year": 2025,
+      "runtimeMinutes": 96,
+      "languages": ["English", "Irish"],
+      "strand": "Debate",
+      "synopsis": "Three generations of Donegal women spend one last night in the family pub before its sale.",
+      "writeupHtml": "<p>The other <em>Mother</em> of this year's festival — and proof that a title can contain multitudes. Brennan's debut confines itself to a single night in a pub on the Donegal coast, as grandmother, daughter and granddaughter pull their last pints and settle forty years of scores.</p><p>What could have been a stage play in disguise becomes something looser and stranger, punctuated by karaoke, a power cut, and one of the great drunken monologues of recent Irish cinema.</p>",
+      "image": null,
+      "sourceUrl": "https://example.org/sample/mother-aoife-brennan",
+      "scrapedAt": "2025-09-01T12:00:00Z",
+      "screenings": [
+        {
+          "id": "mother-aoife-brennan#2025-10-10T20:30#curzon-soho-2",
+          "start": "2025-10-10T20:30:00+01:00",
+          "end": "2025-10-10T22:06:00+01:00",
+          "venueRaw": "Curzon Soho Screen 2",
+          "venue": "curzon-soho",
+          "screen": "Screen 2",
+          "bookingUrl": null,
+          "noteRaw": null
+        },
+        {
+          "id": "mother-aoife-brennan#2025-10-13T13:00#ica",
+          "start": "2025-10-13T13:00:00+01:00",
+          "end": "2025-10-13T14:36:00+01:00",
+          "venueRaw": "ICA",
+          "venue": "ica",
+          "screen": null,
+          "bookingUrl": null,
+          "noteRaw": null
+        }
+      ]
+    },
+    {
+      "id": "senkyo-no-ato",
+      "title": "選挙のあと (After the Election)",
+      "directors": ["Sato Yuki"],
+      "writers": ["Sato Yuki"],
+      "cast": ["Watanabe Ren", "Kobayashi Mio"],
+      "countries": ["Japan"],
+      "year": 2024,
+      "runtimeMinutes": 142,
+      "languages": ["Japanese"],
+      "strand": "Journey",
+      "synopsis": "A defeated rural mayor drives his campaign van across Honshu returning every donation in person.",
+      "writeupHtml": "<p>Sato's deadpan road movie begins where most political dramas end: the morning after a landslide defeat. Rather than concede gracefully, 68-year-old mayor Toshio loads his loudhailer van with envelopes of cash and sets out to return every campaign donation — all 1,214 of them — by hand.</p><p>At 142 minutes it is unhurried by design; the film accumulates its meaning the way the van accumulates dents. A wry, humane epic of obligation, and a sneaky portrait of a Japan rarely seen on screen.</p>",
+      "image": {
+        "thumb": "images/thumb/senkyo-no-ato.jpg",
+        "detail": "images/detail/senkyo-no-ato.jpg",
+        "sourceUrl": "sample-placeholder"
+      },
+      "sourceUrl": "https://example.org/sample/senkyo-no-ato",
+      "scrapedAt": "2025-09-01T12:00:00Z",
+      "screenings": [
+        {
+          "id": "senkyo-no-ato#2025-10-11T17:45#bfi-southbank-nft3",
+          "start": "2025-10-11T17:45:00+01:00",
+          "end": "2025-10-11T20:07:00+01:00",
+          "venueRaw": "BFI Southbank NFT3",
+          "venue": "bfi-southbank",
+          "screen": "NFT3",
+          "bookingUrl": null,
+          "noteRaw": null
+        }
+      ]
+    },
+    {
+      "id": "wax-and-wane-shorts",
+      "title": "Wax and Wane: Animated Shorts",
+      "directors": [],
+      "writers": [],
+      "cast": [],
+      "countries": ["Various"],
+      "year": 2025,
+      "runtimeMinutes": 84,
+      "languages": ["Various"],
+      "strand": "Shorts",
+      "synopsis": "Seven animated shorts about cycles, seasons and repetition, from stop-motion beeswax to hand-drawn charcoal.",
+      "writeupHtml": "<p>This year's animation programme orbits a single theme: things that return. Highlights include <em>Candlemas</em>, a Latvian stop-motion piece animated entirely in beeswax that took its director six years; the charcoal loop-film <em>Roundel</em>; and <em>Low Tide</em>, in which a Cornish estuary empties and refills in eleven hypnotic minutes.</p><p>As ever with the shorts strands, the pleasure is in the whiplash — no two consecutive films share a technique, a tone or a continent.</p>",
+      "image": null,
+      "sourceUrl": "https://example.org/sample/wax-and-wane-shorts",
+      "scrapedAt": "2025-09-01T12:00:00Z",
+      "screenings": [
+        {
+          "id": "wax-and-wane-shorts#2025-10-12T12:15#ica",
+          "start": "2025-10-12T12:15:00+01:00",
+          "end": "2025-10-12T13:39:00+01:00",
+          "venueRaw": "ICA",
+          "venue": "ica",
+          "screen": null,
+          "bookingUrl": null,
+          "noteRaw": "+ Q&A with the programmers"
+        },
+        {
+          "id": "wax-and-wane-shorts#2025-10-14T18:30#prince-charles",
+          "start": "2025-10-14T18:30:00+01:00",
+          "end": "2025-10-14T19:54:00+01:00",
+          "venueRaw": "Prince Charles Cinema",
+          "venue": "prince-charles",
+          "screen": null,
+          "bookingUrl": null,
+          "noteRaw": null
+        }
+      ]
+    },
+    {
+      "id": "the-orchard-wall-1962",
+      "title": "The Orchard Wall",
+      "directors": ["Margaret Deane Fairfax"],
+      "writers": ["Henry Colville"],
+      "cast": ["Celia Ashworth", "James Rutherford", "Dora Blythe"],
+      "countries": ["UK"],
+      "year": 1962,
+      "runtimeMinutes": 87,
+      "languages": ["English"],
+      "strand": "Treasures",
+      "synopsis": "Newly restored: Fairfax's long-unavailable Kentish orchard drama, thought lost until a print surfaced in a Maidstone attic.",
+      "writeupHtml": "<p>One of the great rediscoveries of recent years. Fairfax made only three features before the industry closed ranks against her, and this — her second, unseen publicly since 1971 — is the masterpiece. A land dispute between neighbouring fruit farms becomes, by stealth, one of British cinema's sharpest studies of class and enclosure.</p><p>Restored in 4K from the Maidstone print with support from the festival's archive fund. Introduced by the restoration team.</p>",
+      "image": {
+        "thumb": "images/thumb/the-orchard-wall-1962.jpg",
+        "detail": "images/detail/the-orchard-wall-1962.jpg",
+        "sourceUrl": "sample-placeholder"
+      },
+      "sourceUrl": "https://example.org/sample/the-orchard-wall-1962",
+      "scrapedAt": "2025-09-01T12:00:00Z",
+      "screenings": [
+        {
+          "id": "the-orchard-wall-1962#2025-10-12T15:00#bfi-southbank-nft2",
+          "start": "2025-10-12T15:00:00+01:00",
+          "end": "2025-10-12T16:27:00+01:00",
+          "venueRaw": "BFI Southbank NFT2",
+          "venue": "bfi-southbank",
+          "screen": "NFT2",
+          "bookingUrl": null,
+          "noteRaw": "+ intro by the restoration team"
+        }
+      ]
+    },
+    {
+      "id": "static-bloom",
+      "title": "Static Bloom",
+      "directors": ["Priya Raghunathan"],
+      "writers": ["Priya Raghunathan", "Dev Chatterjee", "Anna Osei"],
+      "cast": [
+        "Tanvi Krishnan", "Rohan Mehta", "Grace Adeyemi", "Samuel Osei-Bonsu", "Leila Haddad",
+        "Marcus Webb", "Priti Shah", "Daniel Kwarteng", "Yasmin Iqbal", "Theo Nakamura",
+        "Josephine Achieng", "Viktor Lindgren"
+      ],
+      "countries": ["India", "UK", "Ghana"],
+      "year": 2025,
+      "runtimeMinutes": 121,
+      "languages": ["English", "Hindi", "Twi"],
+      "strand": "Create",
+      "synopsis": "An ensemble comedy set in a Croydon community radio station during its final week on air.",
+      "writeupHtml": "<p>Raghunathan marshals a twelve-strong ensemble with the confidence of prime Altman: overlapping dialogue, a dozen storylines, and a transmitter that keeps cutting out at exactly the wrong moment. As Croydon FM counts down to switch-off, everyone wants one last show — the pirate-era founder, the drivetime host with a podcast offer, the work-experience kid who might be the best broadcaster in the building.</p><p>Warm without being sentimental, and very funny about the specific ways institutions die.</p>",
+      "image": null,
+      "sourceUrl": "https://example.org/sample/static-bloom",
+      "scrapedAt": "2025-09-01T12:00:00Z",
+      "screenings": [
+        {
+          "id": "static-bloom#2025-10-10T20:50#vue-west-end-5",
+          "start": "2025-10-10T20:50:00+01:00",
+          "end": "2025-10-10T22:51:00+01:00",
+          "venueRaw": "Vue West End Screen 5",
+          "venue": "vue-west-end",
+          "screen": "Screen 5",
+          "bookingUrl": null,
+          "noteRaw": null
+        },
+        {
+          "id": "static-bloom#2025-10-11T18:00#rich-mix",
+          "start": "2025-10-11T18:00:00+01:00",
+          "end": "2025-10-11T20:01:00+01:00",
+          "venueRaw": "Rich Mix Shoreditch",
+          "venue": "rich-mix-shoreditch",
+          "screen": null,
+          "bookingUrl": null,
+          "noteRaw": null
+        }
+      ]
+    },
+    {
+      "id": "cold-lacquer",
+      "title": "Cold Lacquer",
+      "directors": ["Chen Weiling"],
+      "writers": ["Chen Weiling"],
+      "cast": ["Zhang Yuqi", "Liu Haoran"],
+      "countries": ["Taiwan", "France"],
+      "year": 2025,
+      "runtimeMinutes": 74,
+      "languages": ["Mandarin"],
+      "strand": "Experimenta",
+      "synopsis": "A restorer of lacquerware narrates the objects that have passed through her workshop over thirty years.",
+      "writeupHtml": "<p>Chen's hybrid essay film is composed almost entirely of macro photography: brushes, pigment, cracked lacquer healing under new coats. Over it, an unnamed restorer recalls the owners of the objects on her bench — the confiscated, the inherited, the stolen and the returned.</p><p>At 74 minutes it is exactly as long as it needs to be, and the final object's story lands like a verdict. One of the year's essential experimental works.</p>",
+      "image": null,
+      "sourceUrl": "https://example.org/sample/cold-lacquer",
+      "scrapedAt": "2025-09-01T12:00:00Z",
+      "screenings": [
+        {
+          "id": "cold-lacquer#2025-10-09T18:30#ica",
+          "start": "2025-10-09T18:30:00+01:00",
+          "end": "2025-10-09T19:44:00+01:00",
+          "venueRaw": "ICA",
+          "venue": "ica",
+          "screen": null,
+          "bookingUrl": null,
+          "noteRaw": null
+        }
+      ]
+    },
+    {
+      "id": "night-bus-to-tallinn",
+      "title": "Night Bus to Tallinn",
+      "directors": ["Kaspar Oja"],
+      "writers": ["Kaspar Oja", "Liis Männik"],
+      "cast": ["Marta Vaher", "Jaan Kask", "Elina Tamm"],
+      "countries": ["Estonia", "Finland"],
+      "year": 2025,
+      "runtimeMinutes": 101,
+      "languages": ["Estonian", "Russian", "English"],
+      "strand": "Thrill",
+      "synopsis": "An overnight coach from Berlin to Tallinn carries a passenger who never appears on the manifest.",
+      "writeupHtml": "<p>The overnight coach is cinema's most underused thriller location, and Oja makes a feast of it: two drivers, eleven passengers, sixteen hours, and a headcount that keeps coming up wrong. What begins as a droll character piece tightens, border by border, into something genuinely clammy.</p><p>Best seen late at night, ideally with a long journey home afterwards.</p>",
+      "image": {
+        "thumb": "images/thumb/night-bus-to-tallinn.jpg",
+        "detail": "images/detail/night-bus-to-tallinn.jpg",
+        "sourceUrl": "sample-placeholder"
+      },
+      "sourceUrl": "https://example.org/sample/night-bus-to-tallinn",
+      "scrapedAt": "2025-09-01T12:00:00Z",
+      "screenings": [
+        {
+          "id": "night-bus-to-tallinn#2025-10-10T23:00#prince-charles",
+          "start": "2025-10-10T23:00:00+01:00",
+          "end": "2025-10-11T00:41:00+01:00",
+          "venueRaw": "Prince Charles Cinema",
+          "venue": "prince-charles",
+          "screen": null,
+          "bookingUrl": null,
+          "noteRaw": null
+        },
+        {
+          "id": "night-bus-to-tallinn#2025-10-15T20:40#curzon-soho-3",
+          "start": "2025-10-15T20:40:00+01:00",
+          "end": "2025-10-15T22:21:00+01:00",
+          "venueRaw": "Curzon Soho Screen 3",
+          "venue": "curzon-soho",
+          "screen": "Screen 3",
+          "bookingUrl": null,
+          "noteRaw": null
+        },
+        {
+          "id": "night-bus-to-tallinn#2025-10-15T20:55#curzon-soho-2",
+          "start": "2025-10-15T20:55:00+01:00",
+          "end": "2025-10-15T22:36:00+01:00",
+          "venueRaw": "Curzon Soho Screen 2",
+          "venue": "curzon-soho",
+          "screen": "Screen 2",
+          "bookingUrl": null,
+          "noteRaw": null
+        }
+      ]
+    },
+    {
+      "id": "paper-anniversary",
+      "title": "Paper Anniversary",
+      "directors": ["Lucía Ferreyra"],
+      "writers": ["Lucía Ferreyra"],
+      "cast": ["Valentina Ríos", "Mateo Guzmán"],
+      "countries": ["Argentina", "Spain"],
+      "year": 2025,
+      "runtimeMinutes": 93,
+      "languages": ["Spanish"],
+      "strand": "Laugh",
+      "synopsis": "A Buenos Aires couple celebrate their first anniversary by re-staging their entire disastrous wedding day, guest by guest.",
+      "writeupHtml": "<p>Ferreyra's second feature is a comic machine of real elegance: one year on from a wedding at which everything went wrong, Julieta and Bruno invite every guest back to apologise to them individually — in the original order. The structure (twelve apologies, twelve flashbacks) could be a gimmick; in Ferreyra's hands it becomes a study of how couples curate their own mythology.</p><p>Sharp, generous and 93 minutes exactly. Bring someone you've argued with at a wedding.</p>",
+      "image": {
+        "thumb": "images/thumb/paper-anniversary.jpg",
+        "detail": "images/detail/paper-anniversary.jpg",
+        "sourceUrl": "sample-placeholder"
+      },
+      "sourceUrl": "https://example.org/sample/paper-anniversary",
+      "scrapedAt": "2025-09-01T12:00:00Z",
+      "screenings": [
+        {
+          "id": "paper-anniversary#2025-10-11T13:10#vue-west-end-4",
+          "start": "2025-10-11T13:10:00+01:00",
+          "end": "2025-10-11T14:43:00+01:00",
+          "venueRaw": "Vue West End Screen 4",
+          "venue": "vue-west-end",
+          "screen": "Screen 4",
+          "bookingUrl": null,
+          "noteRaw": null
+        },
+        {
+          "id": "paper-anniversary#2025-10-11T15:30#curzon-mayfair",
+          "start": "2025-10-11T15:30:00+01:00",
+          "end": "2025-10-11T17:03:00+01:00",
+          "venueRaw": "Curzon Mayfair",
+          "venue": "curzon-mayfair",
+          "screen": null,
+          "bookingUrl": null,
+          "noteRaw": null
+        },
+        {
+          "id": "paper-anniversary#2025-10-18T11:00#bfi-southbank-nft1",
+          "start": "2025-10-18T11:00:00+01:00",
+          "end": "2025-10-18T12:33:00+01:00",
+          "venueRaw": "BFI Southbank NFT1",
+          "venue": "bfi-southbank",
+          "screen": "NFT1",
+          "bookingUrl": null,
+          "noteRaw": null
+        }
+      ]
+    }
+  ]
+}

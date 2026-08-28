@@ -1,0 +1,39 @@
+{
+  "name": "lff-planner",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Personal BFI London Film Festival planner: programme browser, selection flags, schedule optimiser",
+  "scripts": {
+    "dev": "npm run stage-data -- ${LFF_YEAR:-sample} && vite dev app",
+    "build": "npm run stage-data -- ${LFF_YEAR:-sample} && vite build app",
+    "preview": "vite preview app",
+    "stage-data": "tsx scripts/stage-data.ts",
+    "emit-schemas": "tsx scripts/emit-schemas.ts",
+    "fetch": "tsx pipeline/fetch.ts",
+    "parse": "tsx pipeline/parse.ts",
+    "schedule": "tsx scheduler/cli.ts",
+    "test": "vitest run",
+    "e2e": "node scripts/e2e-smoke.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@preact/signals": "^2.0.0",
+    "preact": "^10.27.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@netlify/blobs": "^10.0.0",
+    "@preact/preset-vite": "^2.10.0",
+    "@types/node": "^26.4.0",
+    "cheerio": "^1.1.0",
+    "sharp": "^0.34.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.0.0",
+    "vitest": "^3.0.0"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.55.0"
+  }
+}

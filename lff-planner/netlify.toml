@@ -1,0 +1,12 @@
+[build]
+  command = "npm run stage-data -- ${LFF_YEAR:-sample} && npx vite build app"
+  publish = "app/dist"
+
+[[edge_functions]]
+  function = "auth"
+  path = "/*"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "bufferMinutes": 10,
+  "defaultTravelMinutes": 30,
+  "zones": {
+    "west-end": { "intraMinutes": 7 },
+    "south-bank": { "intraMinutes": 5 },
+    "mayfair": { "intraMinutes": 5 },
+    "other": { "intraMinutes": 15 }
+  },
+  "zoneTravel": [
+    { "a": "west-end", "b": "south-bank", "minutes": 30 },
+    { "a": "west-end", "b": "mayfair", "minutes": 30 },
+    { "a": "south-bank", "b": "mayfair", "minutes": 45 }
+  ],
+  "pairOverrides": [
+    { "a": "royal-festival-hall", "b": "curzon-mayfair", "minutes": 40 }
+  ],
+  "venues": [
+    {
+      "id": "bfi-southbank",
+      "name": "BFI Southbank",
+      "zone": "south-bank",
+      "aliases": ["BFI Southbank"]
+    },
+    {
+      "id": "royal-festival-hall",
+      "name": "Royal Festival Hall",
+      "zone": "south-bank",
+      "aliases": ["Southbank Centre, Royal Festival Hall", "Southbank Centre", "Royal Festival Hall"]
+    },
+    {
+      "id": "bfi-imax",
+      "name": "BFI IMAX",
+      "zone": "south-bank",
+      "aliases": ["BFI IMAX"]
+    },
+    {
+      "id": "curzon-soho",
+      "name": "Curzon Soho",
+      "zone": "west-end",
+      "aliases": ["Curzon Soho"]
+    },
+    {
+      "id": "vue-west-end",
+      "name": "Vue West End",
+      "zone": "west-end",
+      "aliases": ["Vue West End", "Vue Leicester Square"]
+    },
+    {
+      "id": "prince-charles",
+      "name": "Prince Charles Cinema",
+      "zone": "west-end",
+      "aliases": ["Prince Charles Cinema", "The Prince Charles Cinema"]
+    },
+    {
+      "id": "odeon-luxe-leicester-square",
+      "name": "Odeon Luxe Leicester Square",
+      "zone": "west-end",
+      "aliases": ["Odeon Luxe Leicester Square", "ODEON Luxe Leicester Square"]
+    },
+    {
+      "id": "curzon-mayfair",
+      "name": "Curzon Mayfair",
+      "zone": "mayfair",
+      "aliases": ["Curzon Mayfair"]
+    },
+    {
+      "id": "ica",
+      "name": "ICA",
+      "zone": "other",
+      "aliases": ["ICA", "Institute of Contemporary Arts"]
+    }
+  ]
+}
