@@ -11,7 +11,10 @@
   "zoneTravel": [
     { "a": "west-end", "b": "south-bank", "minutes": 30 },
     { "a": "west-end", "b": "mayfair", "minutes": 30 },
-    { "a": "south-bank", "b": "mayfair", "minutes": 45 }
+    { "a": "south-bank", "b": "mayfair", "minutes": 45 },
+    { "a": "other", "b": "west-end", "minutes": 30 },
+    { "a": "other", "b": "south-bank", "minutes": 30 },
+    { "a": "other", "b": "mayfair", "minutes": 30 }
   ],
   "pairOverrides": [
     { "a": "royal-festival-hall", "b": "curzon-mayfair", "minutes": 40 }

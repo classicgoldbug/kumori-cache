@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "festivalYear": 2025,
+  "exportedAt": "2025-09-20T09:00:00Z",
+  "films": {
+    "the-glass-harbour": { "tristan": true, "amy": true, "priority": true, "maybe": false, "updatedAt": "2025-09-20T09:00:00Z" },
+    "mother-kim-daeyoung": { "tristan": true, "amy": false, "priority": false, "maybe": false, "updatedAt": "2025-09-20T09:00:00Z" },
+    "mother-aoife-brennan": { "tristan": false, "amy": true, "priority": false, "maybe": false, "updatedAt": "2025-09-20T09:00:00Z" },
+    "night-bus-to-tallinn": { "tristan": true, "amy": false, "priority": false, "maybe": true, "updatedAt": "2025-09-20T09:00:00Z" },
+    "paper-anniversary": { "tristan": true, "amy": true, "priority": false, "maybe": false, "updatedAt": "2025-09-20T09:00:00Z" },
+    "senkyo-no-ato": { "tristan": true, "amy": false, "priority": false, "maybe": false, "updatedAt": "2025-09-20T09:00:00Z" },
+    "static-bloom": { "tristan": false, "amy": false, "priority": false, "maybe": true, "updatedAt": "2025-09-20T09:00:00Z" }
+  },
+  "manualEvents": [
+    {
+      "id": "manual-surprise-film",
+      "title": "Surprise Film",
+      "runtimeMinutes": 120,
+      "flags": { "tristan": true, "amy": false, "priority": true, "maybe": false },
+      "screenings": [
+        { "id": "manual-surprise-film#0", "start": "2025-10-09T20:45:00+01:00", "venue": "royal-festival-hall", "screen": null }
+      ],
+      "notes": null,
+      "updatedAt": "2025-09-20T09:00:00Z"
+    }
+  ]
+}
