@@ -182,6 +182,47 @@ select.chip { appearance: none; }
 .schedule-flags { display: flex; gap: 4px; }
 .schedule-flags .flag { width: 22px; height: 22px; font-size: 11px; }
 
+/* Scheduler view */
+.schedule-header { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.schedule-header h2 { margin: 12px 0; }
+.schedule-header .primary {
+  background: var(--accent); color: #0a1526; border: none; font-weight: 600;
+  border-radius: 8px; padding: 8px 16px; cursor: pointer;
+}
+.schedule-header .primary:disabled { opacity: 0.6; cursor: wait; }
+.schedule-warnings {
+  background: #33270f; border: 1px solid #806019; border-radius: 8px;
+  padding: 8px 12px; font-size: 13px; margin: 8px 0;
+}
+.amy-target {
+  font-size: 12px; font-weight: 500; color: var(--amy);
+  border: 1px solid var(--amy); border-radius: 999px; padding: 2px 9px; margin-left: 10px;
+  vertical-align: middle;
+}
+.amy-target.missed { color: #f0a0a0; border-color: #a05252; }
+.travel-gap { font-size: 12px; color: var(--muted); padding: 1px 8px 1px 58px; }
+.travel-gap.tight { color: #f0a0a0; }
+.attendees { display: flex; gap: 4px; }
+.attendees .flag, .schedule-flags .flag { width: 22px; height: 22px; font-size: 11px; }
+.unscheduled { margin-top: 20px; }
+.unscheduled-item { padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; margin-bottom: 8px; }
+.unscheduled-item .link { cursor: pointer; }
+.unscheduled-item .alt { font-size: 12px; padding-left: 12px; }
+.schedule-notes { margin-top: 12px; font-size: 13px; }
+
+/* Screening map */
+.screening-map { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 8px; }
+.map-row { padding: 7px 0; border-bottom: 1px solid var(--line); }
+.map-title { font-weight: 600; cursor: pointer; }
+.map-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 5px; }
+.map-chip {
+  font-size: 12px; border: 1px solid var(--line); border-radius: 6px;
+  background: var(--bg-raised); color: var(--muted); padding: 3px 8px; cursor: pointer;
+}
+.map-chip.chosen { border-color: var(--maybe); color: var(--text); background: #14311f; }
+.map-chip.blocked { border-color: #a05252; color: #f0a0a0; text-decoration: line-through; }
+.map-explain { font-size: 12px; color: #f0a0a0; padding: 6px 2px 0; }
+
 @media (max-width: 640px) {
   .film-row { gap: 8px; padding: 8px 6px; }
   .thumb { width: 56px; height: 38px; }
