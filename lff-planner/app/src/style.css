@@ -182,6 +182,25 @@ select.chip { appearance: none; }
 .schedule-flags { display: flex; gap: 4px; }
 .schedule-flags .flag { width: 22px; height: 22px; font-size: 11px; }
 
+/* Sync badge */
+.sync-area { margin-left: auto; position: relative; }
+.sync-badge {
+  background: transparent; border: 1px solid var(--line); color: var(--muted);
+  border-radius: 999px; padding: 3px 10px; font-size: 12px; cursor: pointer;
+}
+.sync-badge.synced { color: var(--maybe); border-color: var(--maybe); }
+.sync-badge.error, .sync-badge.offline { color: #f0a0a0; border-color: #a05252; }
+.sync-menu {
+  position: absolute; right: 0; top: 30px; z-index: 20;
+  background: var(--bg-raised); border: 1px solid var(--line); border-radius: 8px;
+  display: flex; flex-direction: column; min-width: 170px; overflow: hidden;
+}
+.sync-menu button {
+  background: transparent; border: none; color: var(--text); text-align: left;
+  padding: 9px 12px; cursor: pointer; font-size: 13px;
+}
+.sync-menu button:hover { background: var(--bg-hover); }
+
 /* Scheduler view */
 .schedule-header { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
 .schedule-header h2 { margin: 12px 0; }
